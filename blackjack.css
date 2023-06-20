@@ -30,7 +30,7 @@ p#results {
 
 #dealer-cards img {
     height: 350px;text-shadow: 2px 2px #fff;
-    width: 250px; background:url(/cards/Back.gif) ;
+    width: 250px; background:url(/cards/Back.png) ;
     background-size:cover;
     margin: 2px; -webkit-font-smoothing: antialiased;
     -webkit-animation: slide-top 1s cubic-bezier(0.785, 0.135, 0.150, 0.860) reverse forwards;
@@ -41,7 +41,7 @@ p#results {
 
 #your-cards img {
     height: 350px;
-    width: 250px; background:url(/cards/Back.gif) ;
+    width: 250px; background:url(/cards/Back.png) ;
     background-size:cover;
     border-radius:9px; -webkit-font-smoothing: antialiased;
     -webkit-animation: slide-top 1s cubic-bezier(0.785, 0.135, 0.150, 0.860) reverse forwards;
