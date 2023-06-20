@@ -2,7 +2,7 @@ body {
     font-family: 'Quicksand';
     text-align: center;color:white;
     text-shadow: 0px 0px 10px #000;   
-    font-size: 20px;
+    font-size: 20px;   transition:ease-in 1500ms;
     background: no-repeat url("https://i.imgur.com/Mhw4VPH.jpg");
     overflow-y: hidden; /* Hide vertical scrollbar */
     overflow-x: hidden; /* Hide horizontal scrollbar */
@@ -13,7 +13,7 @@ p#results {
     text-shadow: 0px 0px 10px #000;    
     font-family:'Quicksand';   
     font-size: 53px;
-    top: 0;
+    top: 0;   transition:ease-in 1500ms;
     position: absolute;  
     margin-left: 50px;
     padding: 10px;}
@@ -24,7 +24,7 @@ p#results {
     width: 250px; background:url(/cards/Back.png) ;
     background-size:cover;
     margin: 2px;
-    border-radius:9px;  
+    border-radius:9px;     transition:ease-in 1500ms;
     box-shadow: 0 5px 20px 0px #000;
 }
 
@@ -33,7 +33,7 @@ p#results {
     width: 250px; background:url(/cards/Back.png) ;
     background-size:cover;
     border-radius:9px;
-    margin: 2px; 
+    margin: 2px;   transition:ease-in 1500ms;
     box-shadow: 0 5px 20px 0px #000;
     
 }
@@ -46,7 +46,7 @@ p#results {
     text-shadow: 0px 2px 4px rgba(0,0,0,0.9);
     font-size: 20px;
     border:1px solid #fff;
-    color:#fff; transition: ease-in 800ms;
+    color:#fff; transition:ease-in 800ms;
     background:rgba(0,0,0,0.5);
     backdrop-filter: blur(5px);-webkit-backdrop-filter:blur(5px);
 }
@@ -54,7 +54,7 @@ p#results {
 #stay {
     font-family:'Quicksand';
     width: 100px;
-    height: 50px; transition: ease-in 800ms;
+    height: 50px; transition:ease-in 800ms;
     color:#fff;
     text-shadow: 0px 2px 4px rgba(0,0,0,0.9);
     font-size: 20px; border-radius: 15px;
@@ -69,7 +69,7 @@ p#results {
     text-shadow: 0px 2px 4px rgba(0,0,0,0.9);
     height: 50px;
     color:#fff;
-    font-size: 20px; transition: ease-in 800ms;
+    font-size: 20px; transition:ease-in 800ms;
     border-radius: 15px;
     border:1px solid #fff;
     background:rgba(0,0,0,0.5);
@@ -81,7 +81,7 @@ p#results {
     font-family:'Quicksand';
     width: 100px;
     height: 50px;
-    border-radius: 15px; transition: ease-in 800ms;
+    border-radius: 15px; transition:ease-in 800ms;
     border:1px solid #fff;-webkit-backdrop-filter:blur(5px);
     text-shadow: 0px 0px 10px #fff;
     backdrop-filter: blur(5px);
@@ -93,7 +93,7 @@ p#results {
 
 #stay:hover {
     font-family:'Quicksand';
-    width: 100px; transition: ease-in 800ms;
+    width: 100px; transition:ease-in 800ms;
     backdrop-filter: blur(5px);
     background:black;-webkit-backdrop-filter:blur(5px);
     border:1px solid #fff;
@@ -108,7 +108,7 @@ p#results {
 
 #deal:hover {
     font-family:'Quicksand';
-    width: 100px; transition: ease-in 800ms;
+    width: 100px; transition:ease-in 800ms;
     text-shadow: 0px 0px 10px #fff;
     height: 50px;
     background:black;-webkit-backdrop-filter:blur(5px);
