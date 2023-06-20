@@ -1,5 +1,5 @@
 body {
-    font-family: Helvetica,
+    font-family: 'Quicksand';,
     text-align: center;
 }
 
@@ -16,22 +16,25 @@ body {
 }
 
 #hit {
-     font-family:'Helvetica';
+     font-family:'Quicksand';
     width: 100px;
     height: 50px;
     font-size: 20px;
+    border:0px solid #000;
 }
 
 #stay {
-     font-family:'Helvetica';
+     font-family:'Quicksand';
     width: 100px;
     height: 50px;
     font-size: 20px;
+    border:0px solid #000;
 }
 
 #deal {
-    font-family:'Helvetica';
+    font-family:'Quicksand';
     width: 100px;
     height: 50px;
     font-size: 20px;
+    border:0px solid #000;
 }
