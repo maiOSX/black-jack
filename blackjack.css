@@ -24,6 +24,8 @@ body {
     text-shadow: 2px 2px #fff;
     font-size: 20px;
     border:0px solid #000;
+    background:rgba(0,0,0,0.5);
+    backdrop-filter: blur(10px);
 }
 
 #stay {
@@ -33,6 +35,7 @@ body {
     text-shadow: 2px 2px #fff;
     font-size: 20px; border-radius: 15px;
     border:0px solid #000;
+    backdrop-filter: blur(10px);
 }
 
 #deal {
@@ -43,6 +46,7 @@ body {
     font-size: 20px;
     border-radius: 15px;
     border:0px solid #000;
+    backdrop-filter: blur(10px);
 }
 
 #hit:hover {
@@ -51,6 +55,7 @@ body {
     height: 50px;
     border-radius: 15px;
     text-shadow: 2px 2px #3399ff;
+    backdrop-filter: blur(10px);
     font-size: 20px;
     background:black;
     border:0px solid #000;
@@ -59,6 +64,7 @@ body {
 #stay:hover {
     font-family:'Quicksand';
     width: 100px;
+    backdrop-filter: blur(10px);
     background:black;
     height: 50px;
     text-shadow: 2px 2px #3399ff;
@@ -74,6 +80,7 @@ body {
     text-shadow: 2px 2px #3399ff;
     height: 50px;
     background:black;
+    backdrop-filter: blur(10px);
     font-size: 20px;
     background:black;
     border-radius: 15px;
