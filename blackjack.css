@@ -155,7 +155,7 @@ p#results {
     box-shadow: 0 5px 20px 0px #ffe3ff;
 }
 
- @media screen and (min-width:490px) {
+ @media screen and (min-width:1245px) {
 		  body {
     font-family: 'Quicksand';
     text-align: center;color:white;
@@ -165,4 +165,143 @@ p#results {
     overflow-y: scroll; /* Hide vertical scrollbar */
     overflow-x: scroll; /* Hide horizontal scrollbar */
 }
+
+p#results {  
+    color:white;
+    text-shadow: 0px 0px 10px #000;    
+    font-family:'Quicksand';   
+    font-size: 53px;
+    top: 0;   transition:ease-in 1500ms;
+    position: absolute;  
+    margin-left: 50px;
+    padding: 10px;}
+
+
+#dealer-cards img {
+    height: 350px;text-shadow: 2px 2px #fff;
+    width: 250px; background:url(/cards/Back.png) ;
+    background-size:cover;
+    margin: 2px; -webkit-font-smoothing: antialiased;
+    -webkit-animation: slide-top 1s cubic-bezier(0.785, 0.135, 0.150, 0.860) reverse forwards;
+	        animation: slide-top 1s cubic-bezier(0.785, 0.135, 0.150, 0.860) reverse forwards;
+    border-radius:9px;     transition:ease-in 1500ms;
+    box-shadow: 0 5px 20px 0px #000;
+}
+
+#your-cards img {
+    height: 350px;
+    width: 250px; background:url(/cards/Back.png) ;
+    background-size:cover;
+    border-radius:9px; -webkit-font-smoothing: antialiased;
+    -webkit-animation: slide-top 1s cubic-bezier(0.785, 0.135, 0.150, 0.860) reverse forwards;
+	        animation: slide-top 1s cubic-bezier(0.785, 0.135, 0.150, 0.860) reverse forwards;
+    margin: 2px;   transition:ease-in 1500ms;
+    box-shadow: 0 5px 20px 0px #000;
+    
+}
+
+#hit {
+    font-family: 'Quicksand';
+    width: 100px;
+    height: 50px;
+    border-radius: 15px;
+    text-shadow: 0px 2px 4px rgba(0,0,0,0.9);
+    font-size: 20px;
+    border: 1px solid #fff;
+    color: #fff;
+    margin-top: -15px !important;
+    transition: ease-in 800ms;
+    position: absolute;
+    background: rgba(0,0,0,0.5);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    margin-left: -170px;
+}
+
+#stay {
+    font-family: 'Quicksand';
+    
+    height: 50px;
+    transition: ease-in 800ms;
+    color: #fff;
+    text-shadow: 0px 2px 4px rgba(0,0,0,0.9);
+    font-size: 20px;
+    margin-top: -15px !important;
+    border-radius: 15px;
+    border: 1px solid #fff;
+	    width: 101px;
+    backdrop-filter: blur(5px);
+    background: rgba(0,0,0,0.5);
+    -webkit-backdrop-filter: blur(5px);
+    position: absolute;
+    margin-left: -51px;
+}
+
+#deal {
+    font-family: 'Quicksand';
+    width: 100px;
+    text-shadow: 0px 2px 4px rgba(0,0,0,0.9);
+    height: 50px;
+    color: #fff;
+    font-size: 20px;
+    transition: ease-in 800ms;
+    margin-top: -15px !important;
+    border-radius: 15px;
+    position: relative;
+    border: 1px solid #fff;
+    background: rgba(0,0,0,0.5);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    position: absolute;
+    margin-left: 70px;
+}
+
+#hit:hover {
+    font-family:'Quicksand';
+    width: 100px;
+    height: 50px;
+    border-radius: 15px; transition:ease-in 800ms;
+    border:1px solid #fff;-webkit-backdrop-filter:blur(5px);
+    text-shadow: 0px 0px 10px #fff;
+    backdrop-filter: blur(5px);
+    font-size: 20px;
+    background:black;
+    border:0px solid #000;
+    box-shadow: 0 5px 20px 0px #ffe3ff;
+}
+
+#stay:hover {
+    font-family: 'Quicksand';
+    
+    height: 50px;
+    transition: ease-in 800ms;
+    color: #fff;
+    text-shadow: 0px 2px 4px rgba(0,0,0,0.9);
+    font-size: 20px;
+    margin-top: -15px !important;
+    border-radius: 15px;
+    border: 1px solid #fff;
+	    width: 101px;
+    backdrop-filter: blur(5px);
+    background: rgba(0,0,0,0.5);
+    -webkit-backdrop-filter: blur(5px);
+    position: absolute;
+    margin-left: -51px;
+}
+
+#deal:hover {
+    font-family:'Quicksand';
+    width: 100px; transition:ease-in 800ms;
+    text-shadow: 0px 0px 10px #fff;
+    height: 50px;
+    background:black;-webkit-backdrop-filter:blur(5px);
+    border:1px solid #fff;
+    backdrop-filter: blur(5px);
+    font-size: 20px;
+    background:black;
+    border-radius: 15px;
+    border:1px solid #fff;
+    box-shadow: 0 5px 20px 0px #ffe3ff;
+}
+	 
 		}
