@@ -27,7 +27,7 @@ p#results {
     margin-left: 50px;
     padding: 10px;}
 
-#barformobile {display:block; height:60px; width:100%; background:black; position:absolute; bottom:0; left:0;}
+#barformobile {display:block; height:60px; width:100%; background:black; position:fixed; bottom:0; left:0;}
 #dealer-cards img {
     height: 350px;text-shadow: 2px 2px #fff;
     width: 250px; background:url(/cards/Back.png) ;
@@ -156,7 +156,7 @@ p#results {
 }
 
  @media screen and (min-width:900px) {
-#barformobile {display:block; height:60px; width:100%; background:black; position:absolute; bottom:0; left:0;}
+#barformobile {display:block; height:60px; width:100%; background:black; position:fixed; bottom:0; left:0;}
 
 	 
 		  body {
