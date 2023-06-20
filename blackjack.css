@@ -44,7 +44,7 @@ p#results {
     text-shadow: 0px 2px 4px rgba(0,0,0,0.9);
     font-size: 20px;
     border:1px solid #fff;
-    color:#fff; transition: ease-in 1s;
+    color:#fff; transition: ease-in 800ms;
     background:rgba(0,0,0,0.5);
     backdrop-filter: blur(5px);-webkit-backdrop-filter:blur(5px);
 }
@@ -52,7 +52,7 @@ p#results {
 #stay {
     font-family:'Quicksand';
     width: 100px;
-    height: 50px; transition: ease-in 1s;
+    height: 50px; transition: ease-in 800ms;
     color:#fff;
     text-shadow: 0px 2px 4px rgba(0,0,0,0.9);
     font-size: 20px; border-radius: 15px;
@@ -67,7 +67,7 @@ p#results {
     text-shadow: 0px 2px 4px rgba(0,0,0,0.9);
     height: 50px;
     color:#fff;
-    font-size: 20px; transition: ease-in 1s;
+    font-size: 20px; transition: ease-in 800ms;
     border-radius: 15px;
     border:1px solid #fff;
     background:rgba(0,0,0,0.5);
@@ -79,7 +79,7 @@ p#results {
     font-family:'Quicksand';
     width: 100px;
     height: 50px;
-    border-radius: 15px; transition: ease-in 1s;
+    border-radius: 15px; transition: ease-in 800ms;
     border:1px solid #fff;-webkit-backdrop-filter:blur(5px);
     text-shadow: 0px 0px 10px #fff;
     backdrop-filter: blur(5px);
@@ -91,7 +91,7 @@ p#results {
 
 #stay:hover {
     font-family:'Quicksand';
-    width: 100px; transition: ease-in 1s;
+    width: 100px; transition: ease-in 800ms;
     backdrop-filter: blur(5px);
     background:black;-webkit-backdrop-filter:blur(5px);
     border:1px solid #fff;
@@ -106,7 +106,7 @@ p#results {
 
 #deal:hover {
     font-family:'Quicksand';
-    width: 100px; transition: ease-in 1s;
+    width: 100px; transition: ease-in 800ms;
     text-shadow: 0px 0px 10px #fff;
     height: 50px;
     background:black;-webkit-backdrop-filter:blur(5px);
