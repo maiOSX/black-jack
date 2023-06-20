@@ -1,6 +1,7 @@
 body {
     font-family: 'Quicksand';
     text-align: center;text-shadow: 2px 2px #777; color:white;
+        text-shadow: 0px 0px 10px #fff;
     background: no-repeat url("https://i.imgur.com/Mhw4VPH.jpg");
 }
 
@@ -21,7 +22,7 @@ body {
     width: 100px;
     height: 50px;
     border-radius: 15px;
-    text-shadow: 2px 2px #111;
+       text-shadow: 0px 2px 4px rgba(0,0,0,0.9);
     font-size: 20px;
     border:0px solid #000;
     color:#888;
@@ -34,7 +35,7 @@ body {
     width: 100px;
     height: 50px;
         color:#888;
-    text-shadow: 2px 2px #111;
+       text-shadow: 0px 2px 4px rgba(0,0,0,0.9);
     font-size: 20px; border-radius: 15px;
     border:0px solid #000;
     backdrop-filter: blur(10px);
@@ -44,7 +45,7 @@ body {
 #deal {
     font-family:'Quicksand';
     width: 100px;
-    text-shadow: 2px 2px #111;
+        text-shadow: 0px 2px 4px rgba(0,0,0,0.9);
     height: 50px;
         color:#888;
     font-size: 20px;
@@ -59,7 +60,7 @@ body {
     width: 100px;
     height: 50px;
     border-radius: 15px;
-    text-shadow: 2px 2px #3399ff;
+     text-shadow: 0px 0px 10px #fff;
     backdrop-filter: blur(10px);
     font-size: 20px;
     background:black;
@@ -72,7 +73,7 @@ body {
     backdrop-filter: blur(10px);
     background:black;
     height: 50px;
-    text-shadow: 2px 2px #3399ff;
+       text-shadow: 0px 0px 10px #fff;
     font-size: 20px; border-radius: 15px;
     border:0px solid #000;
     background:black;
@@ -82,7 +83,7 @@ body {
 #deal:hover {
     font-family:'Quicksand';
     width: 100px;
-    text-shadow: 2px 2px #3399ff;
+       text-shadow: 0px 0px 10px #fff;
     height: 50px;
     background:black;
     backdrop-filter: blur(10px);
