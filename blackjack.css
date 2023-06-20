@@ -29,7 +29,8 @@ p#results {
 
 #your-cards img {
     height: 350px;
-    width: 250px; background:url(/cards/Back.png);
+    width: 250px; background:url(/cards/Back.png) ;
+    background-size:cover;
     border-radius:9px;
     margin: 2px; 
     box-shadow: 0 5px 20px 0px #000;
