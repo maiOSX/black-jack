@@ -14,7 +14,7 @@ p#results {
     font-family:'Quicksand';   
     font-size: 53px;
     top: 0;
-    position: absolute;
+    position: absolute;  transition: ease-in 1s;
     margin-left: 50px;
     padding: 10px;}
 
@@ -23,7 +23,7 @@ p#results {
     height: 350px;text-shadow: 2px 2px #fff;
     width: 250px;
     margin: 2px;
-    border-radius:9px;
+    border-radius:9px;  transition: ease-in 1s;
     box-shadow: 0 5px 20px 0px #000;
 }
 
@@ -31,7 +31,7 @@ p#results {
     height: 350px;
     width: 250px;
     border-radius:9px;
-    margin: 2px;
+    margin: 2px;  transition: ease-in 1s;
     box-shadow: 0 5px 20px 0px #000;
     
 }
