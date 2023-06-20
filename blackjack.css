@@ -1,11 +1,11 @@
 body {
     font-family: 'Quicksand';
-    text-align: center;
+    text-align: center;text-shadow: 2px 2px #777; color:white;
     background: no-repeat url("https://i.imgur.com/mNuBIiy.png");
 }
 
 #dealer-cards img {
-    height: 350px;
+    height: 350px;text-shadow: 2px 2px #fff;
     width: 250px;
     margin: 2px;
 }
@@ -20,6 +20,7 @@ body {
      font-family:'Quicksand';
     width: 100px;
     height: 50px;
+    text-shadow: 2px 2px #fff;
     font-size: 20px;
     border:0px solid #000;
 }
@@ -28,13 +29,15 @@ body {
      font-family:'Quicksand';
     width: 100px;
     height: 50px;
-    font-size: 20px;
+    text-shadow: 2px 2px #fff;
+    font-size: 20px; 
     border:0px solid #000;
 }
 
 #deal {
     font-family:'Quicksand';
     width: 100px;
+    text-shadow: 2px 2px #fff;
     height: 50px;
     font-size: 20px;
     border:0px solid #000;
