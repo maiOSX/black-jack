@@ -7,7 +7,16 @@ body {
     overflow-y: hidden; /* Hide vertical scrollbar */
     overflow-x: hidden; /* Hide horizontal scrollbar */
 }
-
+@-webkit-keyframes slide-top {
+  0% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  100% {
+    -webkit-transform: translateY(-900px);
+            transform: translateY(-900px);
+  }
+}
 p#results {  
     color:white;
     text-shadow: 0px 0px 10px #000;    
@@ -23,7 +32,9 @@ p#results {
     height: 350px;text-shadow: 2px 2px #fff;
     width: 250px; background:url(/cards/Back.png) ;
     background-size:cover;
-    margin: 2px;
+    margin: 2px; -webkit-font-smoothing: antialiased;
+    -webkit-animation: slide-top 1s cubic-bezier(0.785, 0.135, 0.150, 0.860) reverse forwards;
+	        animation: slide-top 1s cubic-bezier(0.785, 0.135, 0.150, 0.860) reverse forwards;
     border-radius:9px;     transition:ease-in 1500ms;
     box-shadow: 0 5px 20px 0px #000;
 }
@@ -32,7 +43,9 @@ p#results {
     height: 350px;
     width: 250px; background:url(/cards/Back.png) ;
     background-size:cover;
-    border-radius:9px;
+    border-radius:9px; -webkit-font-smoothing: antialiased;
+    -webkit-animation: slide-top 1s cubic-bezier(0.785, 0.135, 0.150, 0.860) reverse forwards;
+	        animation: slide-top 1s cubic-bezier(0.785, 0.135, 0.150, 0.860) reverse forwards;
     margin: 2px;   transition:ease-in 1500ms;
     box-shadow: 0 5px 20px 0px #000;
     
