@@ -28,7 +28,7 @@ p#results {
 	height: 100%;
     width: 100%;
     display: block;
-    position: fixed;
+    position: fixed; display:none;
     padding: 10px; background:rgba(0,0,0,0.4);
 backdrop-filter:blur(5px);
 -webkit-backdrop-filter:blur(5px);
