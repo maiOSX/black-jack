@@ -46,7 +46,8 @@ p#results {
 #dealer-cards img {
     height: 250px;text-shadow: 2px 2px #fff;
     width: 160px; background:url(/cards/Back.png) ;
-    background-size:cover;
+    background-size:cover; z-index: -2;
+    position: relative;
     margin: 2px; -webkit-font-smoothing: antialiased;
     -webkit-animation: slide-top 1s cubic-bezier(0.785, 0.135, 0.150, 0.860) reverse forwards;
 	        animation: slide-top 1s cubic-bezier(0.785, 0.135, 0.150, 0.860) reverse forwards;
