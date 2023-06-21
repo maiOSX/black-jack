@@ -216,9 +216,10 @@ p#results {
     font-family:'Quicksand';   
     font-size: 53px;
     top: 0;   transition:ease-in 1500ms;
-    position: absolute;  
-    margin-left: 50px;
-    padding: 10px;}
+    position: absolute !important;  
+    margin-left: 50px !important;
+    padding: 10px; !important;
+margin-bottom:0px !important;}
 
 
 #dealer-cards img {
