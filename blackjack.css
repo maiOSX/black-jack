@@ -6,6 +6,7 @@ body {
     background: no-repeat url("https://i.imgur.com/Mhw4VPH.jpg");
     overflow-y: scroll; /* Hide vertical scrollbar */
     overflow-x: scroll; /* Hide horizontal scrollbar */
+	    padding-bottom: 160px;
 }
 @-webkit-keyframes slide-top {
   0% {
