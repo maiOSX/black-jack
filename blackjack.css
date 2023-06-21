@@ -5,7 +5,7 @@ body {
     font-size: 20px;   z-index:0;
     background: black;
 	 background: no-repeat url("https://i.imgur.com/e2q71bg.png");
-background: silver;
+
     overflow-y: scroll; /* Hide vertical scrollbar */
     overflow-x: scroll; /* Hide horizontal scrollbar */
 	    padding-bottom: 160px;
