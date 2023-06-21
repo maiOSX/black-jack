@@ -219,7 +219,7 @@ p#results {
     position: absolute !important;  
     margin-left: 50px !important;
     padding: 10px; !important;
-margin-bottom:0px !important;}
+margin-bottom:0px !important; width:100px;}
 
 
 #dealer-cards img {
