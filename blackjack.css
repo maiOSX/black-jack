@@ -9,6 +9,12 @@ body {
     overflow-x: scroll; /* Hide horizontal scrollbar */
 	    padding-bottom: 160px;
 }
+
+h2 {    z-index: -2;
+    position: relative;}\
+#h2 {    z-index: -2;
+    position: relative;}
+
 @-webkit-keyframes slide-top {
   0% {
     -webkit-transform: translateY(0);
