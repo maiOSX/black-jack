@@ -29,7 +29,9 @@ p#results {
     width: 100%;
     display: block;
     position: fixed;
-    padding: 10px;}
+    padding: 10px; background:rgba(0,0,0,0.4);
+backdrop-filter:blur(5px);
+-webkit-backdrop-filter:blur(5px);}
 
 #barformobile {display:block; height:60px; width:100%; background:black; position:fixed; bottom:0; left:0;}
 #dealer-cards img {
