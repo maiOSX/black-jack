@@ -42,7 +42,7 @@ p#results {
     padding-top: 10px;
     width: 100%;}
 
-#barformobile {display:block; height:60px; width:100%; background:black; position:fixed; bottom:0; left:0;}
+#barformobile {display:block; height:60px; width:100%;  position:fixed; bottom:0; left:0;}
 #dealer-cards img {
     height: 250px;text-shadow: 2px 2px #fff;
     width: 160px; background:url(/cards/Back.png) ;
