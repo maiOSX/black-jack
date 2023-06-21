@@ -56,7 +56,8 @@ p#results {
 }
 
 #your-cards img {
-    height: 250px;
+    height: 250px; z-index: -2;
+    position: relative;
     width: 160px; background:url(/cards/Back.png) ;
     background-size:cover;
     border-radius:9px; -webkit-font-smoothing: antialiased;
